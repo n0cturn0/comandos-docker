@@ -10,3 +10,9 @@ docker-compose config -q
 Criando uma rede no docker:
 docker network create mynetwork
 
+Para alterar a rede de um container em execução no Docker, você pode usar o comando docker network connect para conectar o container a uma nova rede ou docker network disconnect para removê-lo de uma rede existente.
+docker network connect nome_da_rede nome_do_container
+
+
+Desconectar o Container da Rede Atual:
+docker network disconnect sua_rede_atual seu_container
