@@ -9,3 +9,4 @@ docker-compose config -q
 
 Criando uma rede no docker:
 docker network create mynetwork
+
